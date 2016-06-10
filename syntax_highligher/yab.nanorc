@@ -1,0 +1,28 @@
+# nanorc Syntax Highlighting Rules for YaBASIC (http://www.yabasic.de/)
+# Based off of https://github.com/fbcoder/fbnanorc/blob/master/fb.nanorc 
+# with a lot of help from http://www.voip-info.org/wiki/view/Nano+syntax+highlighting
+
+# File Association
+syntax "yab" "\.yab$"
+
+# Reserved Words
+color blue "\<(abs|acos|and|arraydim|arraydimension|arraysize|as|asc|asin|at|atan|beep|bell|bind|bitblit|bitblt|box|break|case|circle|clear|close|color|colour|compile|continue|cos|curve|data|dec|default|dim|do|dot|else|elseif|elsif|end|endif|eof|eor|error|execute|exit|exp|export|fi|fill|filled|for|frac|glob|gosub|goto|if|input|instr|int|interrupt|label|len|let|line|local|log|loop|max|min|mod|mouseb|mousebutton|mousemod|mousemodifier|mousex|mousey|new|next|not|numparam|on|open|or|origin|pause|peek|poke|print|printer|putbit|putscreen|ran|read|reading|rect|rectangle|redim|repeat|restore|return|reverse|rinstr|screen|seek|sig|sin|sleep|split|sqr|sqrt|static|step|sub|subroutine|switch|system|tan|tell|text|then|to|token|triangle|until|using|val|wait|wend|while|window|writing|xor)\>"
+color cyan "(bin|bitblit|bitblt|chr|date|execute|getbit|getscreen|hex|inkey|left|lower|ltrim|mid|peek|right|rtrim|split|str|system|time|token|trim|upper)\$"
+
+# Operators
+color brightwhite "[-+/*%^=<>:@!?]"
+
+# Parens
+color brightyellow "\(|\)|\[|\]|\{|\}"
+
+# Numbers
+color brightred "-?[0-9]+(\.[0-9]+)?([eE][+-]?[0-9]+)?"
+
+# Strings in the source
+color red "\"([^"])*\""
+
+# Comments
+color green "(^|[[:space:]])//.*$"
+color green "^#.*$"
+color green "^'.*$"
+icolor green "rem.*$"

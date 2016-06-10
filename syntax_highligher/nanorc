@@ -1,0 +1,25 @@
+# set options (see: man nanorc)
+set smooth
+set nowrap
+set autoindent
+set historylog
+set tabsize 4
+set tabstospaces
+set undo
+set nohelp
+set const
+set mouse
+set nonewlines
+set nowrap
+set softwrap
+set multibuffer
+set smarthome
+set quickblank
+unset backup
+set suspend
+
+# keybindgs
+include "~/.nano_keybind"
+
+# import syntax highlighting rules for YaBASIC
+include "~/yab.nanorc"

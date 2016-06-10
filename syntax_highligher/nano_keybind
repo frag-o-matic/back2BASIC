@@ -1,0 +1,85 @@
+# Clear out default keybindings and bind keys based on CUA (as far as possible)
+# See http://angrymonkey.webfactional.com/wiki/view/CUA_key_bindings_for_nano
+
+unbind ^N all 
+unbind ^W all
+unbind ^K all
+unbind ^U all
+unbind ^G all
+unbind ^T all
+unbind ^_ all
+unbind ^\ all
+unbind ^^ all
+unbind ^B all
+unbind ^T all
+unbind ^P all
+unbind ^R all
+unbind ^A all
+unbind ^E all
+
+unbind M-\ all
+unbind M-/ all
+unbind M-| all
+unbind M-? all
+unbind M-G all
+unbind M-R all
+unbind M-A all
+unbind M-W all
+unbind M-^ all
+unbind M-6 all
+unbind M-( all
+unbind M-) all
+unbind M-0 all
+unbind M-9 all
+unbind M-U all
+unbind M-E all
+unbind M-] all
+unbind M-- all
+unbind M-+ all
+unbind M-V all
+unbind M-T all
+unbind M-J all
+unbind M-D all
+unbind M-< all
+unbind M-> all
+unbind M-, all
+unbind M-. all
+unbind M-_ all
+unbind M-= all
+
+unbind F1 all
+unbind F2 all
+unbind F3 all
+unbind F4 all
+unbind F5 all
+unbind F6 all
+unbind F7 all
+unbind F8 all
+unbind F9 all
+unbind F10 all
+unbind F11 all
+unbind F12 all
+unbind F13 all
+unbind F14 all
+unbind F15 all
+unbind F16 all
+
+bind F1 help all
+bind F5 refresh all
+bind ^O insert main
+bind ^S writeout all
+bind ^Q exit all
+bind ^F whereis all
+bind F3 searchagain all
+bind ^X cut all
+bind ^C copytext all
+bind ^V uncut all
+bind ^U undo all
+bind ^Y redo all
+bind ^G gotoline main
+bind M-N nextbuf all
+bind M-P prevbuf all
+bind M-M mark all
+bind ^E cancel all
+
+
