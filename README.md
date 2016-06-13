@@ -19,7 +19,6 @@ Courses & Tutorials:
 * http://members.iinet.net.au/~jimshaw/yabasic.me.uk/primers/
 * http://members.iinet.net.au/~jimshaw/yabasic.me.uk/tutorials/default.htm
 * http://gladlylearn.com/BlastOff.htm
-* 
 
 Programs & Code:
 * http://www.oocities.org/sunsetstrip/palms/1624/yabasic/
